@@ -23,6 +23,8 @@ BuildRequires:	intltool
 %{?with_libghttp:BuildRequires:	libghttp-devel}
 BuildRequires:	libtool
 %{?with_libusb:BuildRequires:	libusb-devel >= 0.1.5}
+BuildRequires:	openssl-devel >= 0.9.7d
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
