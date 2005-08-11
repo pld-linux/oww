@@ -1,7 +1,7 @@
 #
 # Conditional build:
-%bcond_without libghttp		# build without HTTP support
-%bcond_without libusb		# build without USB support
+%bcond_without	libghttp		# build without HTTP support
+%bcond_without	libusb		# build without USB support
 #
 %define extra_ver	a
 
