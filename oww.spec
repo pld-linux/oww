@@ -3,17 +3,17 @@
 %bcond_without	libghttp		# build without HTTP support
 %bcond_without	libusb		# build without USB support
 #
-%define extra_ver	a
+#%undefine extra_ver	
 
 Summary:	One-wire weather
 Summary(pl):	Pogoda 1-Wire (oww)
 Name:		oww
-Version:	0.81.4
+Version:	0.81.7
 Release:	0.1
 License:	Artistic
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/oww/%{name}-%{version}%{extra_ver}.tar.gz
-# Source0-md5:	73ca211ce94fca8734272e3cead590dd
+Source0:	http://dl.sourceforge.net/oww/%{name}-%{version}.tar.gz
+# Source0-md5:	69500ab1eb71e927b2bedf5be5b970c1
 URL:		http://oww.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
