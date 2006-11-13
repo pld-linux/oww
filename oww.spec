@@ -50,8 +50,8 @@ mv -f po/{nb_NO,nb}.po
 %{__autoheader}
 %{__automake}
 %configure \
-	%{?without_libghttp:--without-libghttp} \
-	%{?without_libusb:--without-usb}
+	%{!?with_libghttp:--without-libghttp} \
+	%{!?with_libusb:--without-usb}
 
 %{__make}
 
