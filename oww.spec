@@ -6,7 +6,7 @@
 #%undefine extra_ver	
 
 Summary:	One-wire weather
-Summary(pl):	Pogoda 1-Wire (oww)
+Summary(pl.UTF-8):   Pogoda 1-Wire (oww)
 Name:		oww
 Version:	0.81.7
 Release:	0.1
@@ -31,9 +31,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Oww is a Linux interface to the Dallas Semiconductor / AAGElectronica
 1-Wire weather station kits.
 
-%description -l pl
+%description -l pl.UTF-8
 Oww jest linuksowym interfejsem do stacji pogody Dallas Semiconductor
-/ AAGElectronica pracuj±cych na szynie 1-Wire.
+/ AAGElectronica pracujÄ…cych na szynie 1-Wire.
 
 %prep
 %setup -q
