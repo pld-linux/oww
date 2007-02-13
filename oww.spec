@@ -6,7 +6,7 @@
 #%undefine extra_ver	
 
 Summary:	One-wire weather
-Summary(pl.UTF-8):   Pogoda 1-Wire (oww)
+Summary(pl.UTF-8):	Pogoda 1-Wire (oww)
 Name:		oww
 Version:	0.81.7
 Release:	0.1
