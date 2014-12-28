@@ -17,7 +17,7 @@ Source0:	http://dl.sourceforge.net/oww/%{name}-%{version}.tar.gz
 URL:		http://oww.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	intltool
 %{?with_libghttp:BuildRequires:	libghttp-devel}
